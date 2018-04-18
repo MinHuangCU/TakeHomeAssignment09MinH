@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.huangmin.takehomeassignment09_minh.SecondActivity">
+
+    <EditText
+        android:id="@+id/person_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:freezesText="true"
+        android:hint="Enter Name"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/numberOfTickets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:freezesText="true"
+        android:hint="Enter Number of Tickets"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/haveKids"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="checkBoxClicked"
+        android:text="Have Kids Under 6" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addPerson"
+        android:text="add person" />
+
+
+</LinearLayout>
